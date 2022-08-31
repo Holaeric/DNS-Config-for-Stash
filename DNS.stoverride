@@ -30,7 +30,7 @@ dns:
   nameserver:
     - https://doh.18bit.cn/dns-query
     - tls://dns.18bit.cn
-    - quic://dns.adguard.com
+    - quic://dns.adguard.com:784
   fallback:
     - quic://i.passcloud.xyz:784
     - https://i.passcloud.xyz/dns-query
