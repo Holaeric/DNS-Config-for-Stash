@@ -32,8 +32,8 @@ dns:
     - tls://dns.18bit.cn
     - quic://dns.adguard.com:784
   fallback:
-    - quic://i.passcloud.xyz:784
     - https://i.passcloud.xyz/dns-query
+    - quic://i.passcloud.xyz:784
     - tls://i.passcloud.xyz:5432
   fallback-filter:
     geoip: true
